@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace ManojHortulanus\ShortFilamentHelpers;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use ManojHortulanus\ShortFilamentHelpers\Commands\ShortFilamentHelpersCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class ShortFilamentHelpersServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('short-filament-helpers')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_migration_table_name_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_short_filament_helpers_table')
+            ->hasCommand(ShortFilamentHelpersCommand::class);
     }
 }

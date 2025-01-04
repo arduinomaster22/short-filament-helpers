@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace ManojHortulanus\ShortFilamentHelpers\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class ShortFilamentHelpersCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'short-filament-helpers';
 
     public $description = 'My command';
 

@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "arduinomaster22/short-filament-helpers",
+    "description": "This is my package short-filament-helpers",
     "keywords": [
-        ":vendor_name",
+        "ManojHortulanus",
         "laravel",
-        ":package_slug"
+        "short-filament-helpers"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/arduinomaster22/short-filament-helpers",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Manoj Hortulanus",
+            "email": "mdhortulanus@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,16 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
-        }
+            "ManojHortulanus\\ShortFilamentHelpers\\": "src/",
+            "ManojHortulanus\\ShortFilamentHelpers\\Database\\Factories\\": "database/factories/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "ManojHortulanus\\ShortFilamentHelpers\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +66,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "ManojHortulanus\\ShortFilamentHelpers\\ShortFilamentHelpersServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "ShortFilamentHelpers": "ManojHortulanus\\ShortFilamentHelpers\\Facades\\ShortFilamentHelpers"
             }
         }
     },
