@@ -23,37 +23,10 @@ You can install the package via composer:
 composer require arduinomaster22/short-filament-helpers
 ```
 
-You can publish and run the migrations with:
-
-```bash
-php artisan vendor:publish --tag="short-filament-helpers-migrations"
-php artisan migrate
-```
-
-You can publish the config file with:
-
-```bash
-php artisan vendor:publish --tag="short-filament-helpers-config"
-```
-
-This is the contents of the published config file:
-
-```php
-return [
-];
-```
-
-Optionally, you can publish the views using
-
-```bash
-php artisan vendor:publish --tag="short-filament-helpers-views"
-```
-
 ## Usage
 
 ```php
-$shortFilamentHelpers = new ManojHortulanus\ShortFilamentHelpers();
-echo $shortFilamentHelpers->echoPhrase('Hello, ManojHortulanus!');
+filamentdd($vars);
 ```
 
 ## Testing
@@ -76,8 +49,8 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [Manoj Hortulanus](https://github.com/arduinomaster22)
-- [All Contributors](../../contributors)
+-   [Manoj Hortulanus](https://github.com/arduinomaster22)
+-   [All Contributors](../../contributors)
 
 ## License
 
