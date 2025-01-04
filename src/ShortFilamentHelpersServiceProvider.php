@@ -4,7 +4,6 @@ namespace ManojHortulanus\ShortFilamentHelpers;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use ManojHortulanus\ShortFilamentHelpers\Commands\ShortFilamentHelpersCommand;
 
 class ShortFilamentHelpersServiceProvider extends PackageServiceProvider
 {

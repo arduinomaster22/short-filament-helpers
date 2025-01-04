@@ -1,6 +1,6 @@
 <?php
 
-if (!function_exists('filamentdd')) {
+if (! function_exists('filamentdd')) {
     function filamentdd(mixed $vars): never
     {
         ob_clean();
